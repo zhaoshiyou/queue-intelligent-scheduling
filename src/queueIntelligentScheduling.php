@@ -11,7 +11,7 @@ class queueIntelligentScheduling {
 
     public $queueName;
     
-    public $maxJobs=5;
+    public $maxJobs=2000;
     
     public $maxTime=1000;
     

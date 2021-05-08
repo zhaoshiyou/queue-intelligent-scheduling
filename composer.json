@@ -1,0 +1,33 @@
+
+{
+  "name": "zhaoshiyou/queue-intelligent-scheduling",
+  "description": "queue-intelligent-scheduling",
+  "keywords": [
+    "laravel","queue","scheduling"
+  ],
+  "homepage": "https://github.com/zhaoshiyou/queue-intelligent-scheduling",
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/zhaoshiyou/queue-intelligent-scheduling"
+  },
+  "authors": [
+    {
+      "name": "zsy",
+      "email": "zhaoshiyou1993@163.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+        
+  },
+  "autoload": {
+    "psr-4": {
+      "Zsy\\Qis\\": "src/"
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+
+}
